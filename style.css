@@ -1,0 +1,425 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.473), rgba(255, 255, 255, 0.274) ), url('image/Serene.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 0 100px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    max-width: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-box {
+    flex: 1;
+    min-width: 300px;
+    margin-top: 500px;
+    transition: 0.3s ease;
+}
+
+.content-box:hover {
+    transform: scale(1.05);
+}
+
+.content-box h1 {
+    font-family: "Crimson Text", serif;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.content-box p {
+    font-family: "work sans", serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 35px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.product-section {
+    padding: 0 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product-card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 380px;
+    margin-bottom: 40px;
+}
+
+.product-image {
+    background-color: #efedeb;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.product-image img:hover {
+    transform: scale(1.4);
+}
+
+.product-card h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.add-btn {
+    background: none;
+    border: 1px solid #333;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.wellness-section {
+    width: 100%;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.container-wellness {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.top-text {
+    font-family: work sans;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+}
+
+.top-text p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.main-heading {
+    font-family: 'Spectral', serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+}
+
+.wellness-description {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 40px;
+    max-width: 661px;
+    max-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-about {
+    display: inline-block;
+    padding: 15px 50px;
+    border: 1px solid #333;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.btn-about:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.trio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.trio-section {
+    padding: 80px 0;
+}
+
+.trio-flex {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.trio-image {
+    flex: 1.2;
+}
+
+.trio-image img {
+    width: 100%;
+    display: block;
+}
+
+.trio-content {
+    flex: 0.8;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #888;
+    text-transform: capitalize;
+}
+
+.trio-content h2 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.trio-content p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.outline-btn, .add-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #333;
+    background: transparent;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.outline-btn:hover, .add-btn:hover {
+    background: #333;
+    color: #fff;
+}
+@media (max-width: 992px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    
+    .trio-flex {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .trio-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .trio-content h2 {
+        font-size: 2rem;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .trio-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .price {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .quote-footer {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 2.2rem;
+    }
+    
+    .top-text p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .wellness-section {
+        padding: 50px 15px;
+    }
+
+    .main-heading {
+        font-size: 1.8rem;
+    }
+
+    .top-text p {
+        font-size: 1rem;
+    }
+
+    .wellness-description {
+        font-size: 0.95rem;
+    }
+
+    .btn-about {
+        width: 100%;
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .product-card {
+        min-width: 100%;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .footer-text p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .product-card {
+        min-width: 45%;
+    }
+}
+   
+@media (min-width: 993px) {
+    .product-card {
+        min-width: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    .content-box h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .content-box h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-box h1 {
+        font-size: 1.8rem;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
